@@ -1,0 +1,51 @@
+
+@font-face {
+    font-family: 'Kalame-bold';
+    src: url(KalamehWeb-Bold.woff) format('woff'),
+        url(KalamehWeb-Bold.ttf) format('truetype'),
+        url(KalamehWeb-Bold.woff2)format('woff2');
+
+}
+
+
+@font-face {
+    font-family: 'dana';
+    src: url(DanaFaNum-Medium.woff) format('woff'),
+        url(DanaFaNum-Medium.ttf) format('truetype'),
+        url(DanaFaNum-Medium.woff2) format('woff2'),
+
+}
+
+
+
+
+@font-face {
+    font-family: 'IRY';
+    src: url(IRY.woff2) format('woff2'),
+        url(IRY.woff) format('woff'),
+        url(IRY.ttf) format('truetype'),
+
+}
+
+
+html {
+    scroll-behavior: smooth;
+    letter-spacing: 0px;
+}
+
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nova Square', sans-serif;height: 1400px;
+}
+*{
+    letter-spacing: 0px; font-family: 'kalame-bold';
+}
+h1 {
+    text-align: center;
+    letter-spacing: 2.5px;
+    margin: 20px 0;
+    font-family: 'kalame-bold';
+    letter-spacing: -1px;
+}

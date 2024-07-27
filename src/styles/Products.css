@@ -1,0 +1,162 @@
+#flex-container {
+    width: 90%;
+    margin-left: 5%;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+margin-top: 60px;
+    margin-bottom: 2rem;
+}
+
+#flex-item {
+    width: 22%;
+
+    text-align: center;
+    box-shadow: 0 0 3px 0 #c7c9cf;
+    border-radius: 5px;
+    padding: 1.5rem;
+top: 15px;
+    position: relative;
+}
+
+#flex-item:hover {
+
+    box-shadow: 0 0 3px 0 #6d737e;
+
+    cursor: pointer;
+
+}
+
+#product-head>img {
+    width: 11rem;
+    height: 7rem;
+    border-radius: 10px;
+
+    margin-bottom: 1.5rem;
+
+    width: 11rem;
+    height: 11rem;
+    border-radius: 10px;
+    box-shadow: 0 3px 0 transparent;
+    margin-bottom: 1.5rem;
+    transform: scale(1);transition: all .3s;
+}
+
+
+#flex-item:hover #product-head>img{
+
+transform: scale(.985);
+    cursor: pointer;
+    transition: all .1s;
+
+}
+
+
+
+#product-head>h2 {
+    font-size: 19px;
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    font-family: 'kalame-bold';
+    display: flex;
+    font-weight: 300;
+    top: 210px;
+    justify-content: center;
+}
+
+#product-info {
+    margin-top: 3.5rem;
+}
+
+#product-info>h2 {
+    position: absolute;
+    left: 30px;
+    bottom: 1px;
+    font-size: 1.4rem;
+}
+
+#tooman-span {font-family: 'dana';
+    color: #000000;left: -119px;position: absolute;font-weight: 700;
+    font-size:18px;direction: ltr;top: -40px;word-spacing: -2px;
+}
+#price-span{
+    color: #000000;
+    left: -40px;
+    position: absolute;
+    font-size: 18px;
+    direction: ltr;
+    top: -43px;
+    font-family: 'IRY';
+    padding: 4px;letter-spacing: -1.5px;
+font-weight: 700;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+
+}
+
+
+#shopping-cart {
+    position: absolute;
+    right: 25px;
+    bottom: 13px;
+    font-size: 1.94rem;
+    color: #021118;
+
+}
+
+#favorite {
+    position: absolute;
+    right: 65px;
+    bottom: 15px;
+    font-size: 1.9rem;
+    color: rgb(41, 20, 20);
+
+}
+
+#favorite:hover {
+    fill: rgb(151, 0, 0);
+    cursor: pointer;transition: all .1s;
+    transform: scale(1.03);
+}
+
+#shopping-cart:hover {transition: all .1s;
+    transform: scale(1.03);
+    cursor: pointer;
+   color: rgb(24, 55, 194);
+}
+
+@media (max-width: 1250px) {
+    #flex-item {
+        width: 30%;
+    }
+}
+
+@media (max-width: 992px) {
+    #flex-item {
+        width: 40%;
+    }
+    #flex-container {
+      
+    margin-top: 90px!important;
+      
+    }
+}
+
+@media (max-width: 650px) {
+    #flex-item {
+        width: 80%;
+    }  #flex-container {
+      
+        margin-top: 90px!important;
+          
+        }
+}
+
+@media (max-width: 450px) {
+    #flex-item {
+        width: 90%;
+    }
+}

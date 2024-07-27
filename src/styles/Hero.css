@@ -1,0 +1,10 @@
+#hero-container {
+    margin-top: 5rem;
+}
+
+#hero-container>img {
+    filter: hue-rotate(15deg) contrast(100%) brightness(100%);
+    width: 60%;
+    margin-left: 20%;
+    padding: 1.5rem 0;opacity: 1;
+}
