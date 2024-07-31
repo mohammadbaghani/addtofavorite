@@ -1,4 +1,4 @@
-An bilingual online-market with redux by me (Baghani)
+Bilingual online-market with redux by me (Baghani)
 
 See the live project here https://addtofavorite.liara.run
 
